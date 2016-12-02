@@ -1,18 +1,45 @@
 
 body{
   background: #263238;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .banner {
   height:100vh;
   width:100%;
   margin:0;
-  background: url("img/e.jpg") no-repeat;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.58),
+      rgba(0, 0, 0, 0.58)
+    ), url("img/e.jpg") no-repeat;
+
   background-size: cover;
   background-position: center;
 }
 
 .title{
+
   margin:0 auto;
   text-align: center;
   padding-top:300px;
+  color:#fff;
+}
+
+.title h1 {
+  font-size: 8em;
+}
+.title h4 {
+font-size:4em;
+}
+.main_links{
+  text-align: center;
+  margin: 150px;
+}
+
+.main_links li{
+  display: inline;
+  padding:25px;
+}
+.main_links li a {
+  color:#fff;
+  font-size: 25px;
 }

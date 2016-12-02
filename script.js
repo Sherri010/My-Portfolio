@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
-      $('.slider').slider({full_width: true});
+      $( ".title" ).delay(2000).fadeIn();
     });
