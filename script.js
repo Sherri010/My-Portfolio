@@ -1,4 +1,4 @@
 
 $(document).ready(function(){
-      $( ".title" ).delay(2000).fadeIn();
+      $( ".title" ).delay(2000).fadeIn(1000);
     });
