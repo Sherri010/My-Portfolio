@@ -99,11 +99,18 @@ h1.section_title{
 }
 .disc{
   background-color: #fff;
-  min-height: 800px;
 }
 .card{
   min-height:500px;
 }
 ul.techs {
   list-style:circle;
+}
+.project_title{
+  text-align: center;
+  color:#fff;
+}
+.activator{
+  width:80%;
+  margin:20px;
 }

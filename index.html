@@ -7,9 +7,11 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans+Condensed:300" rel="stylesheet">
  <link rel="stylesheet" href="style.css">
+ <link rel="icon" href="img/s15.png">
  <script  src="https://code.jquery.com/jquery-3.1.1.min.js"  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="  crossorigin="anonymous"></script>
  <!-- Compiled and minified JavaScript -->
  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+ <script src="https://use.fontawesome.com/7b050a501f.js"></script>
  <script src="script.js"></script>
   </head>
   <body>
@@ -22,106 +24,64 @@
         <nav class="cl-effect-1">
           <a href=""> About </a>
           <a href="#projects"> Projects </a>
-          <a href=""> Contact </a>
-            <a href=""> Github </a>
-            <a href=""> Linkedin </a>
+          <a href=""> Contact </a> <br>
+            <a href="https://github.com/sherri010"> <i class="fa fa-github" aria-hidden="true"></i> </a>
+            <a href=""> <i class="fa fa-linkedin-square" aria-hidden="true"></i> </a>
         </nav>
       </div>
     </div>
-    <div id="projects" class="container row">
-      <h1 class="section_title"> Projects </h1>
-        <div class="card medium offset-s1 col s5">
-           <div class="card-image waves-effect waves-block waves-light">
+
+    <div id="modal1" class="container">
+    <h1 class="section_title"> Projects </h1>
+      <!-- <div class="row">
+        <h3 class="project_title">AirPlanner</h3>
+        <div class="col s6">
             <img src="img/dash.jpg" class="activator">
-           </div>
-           <div class="card-content">
-             <span class="card-title activator grey-text text-darken-4">AirPlanner<i class="material-icons right">...</i></span>
+       </div>
+       <div class=" disc col s6">
+                  <p><a href="#">Github</a> | <a href="">Heroku</a></p>
              <p> Easy to use app for private pilots to plan routes. </p>
-             <p><a href="#">Github</a> | <a href="">Heroku</a></p>
-           </div>
-           <div class="card-reveal">
-             <span class="card-title grey-text text-darken-4">AirPlanner<i class="material-icons right">close</i></span>
              <p>Easy to use app for private pilots to plan routes.</p>
              <p> Solo Project </p>
              <h5> Technologies:</h5>
              <ul class="techs">
               <li> HTML5 / CSS </li>
               <li> Angular </li>
+              <li> Google Maps API </li>
               <li> Ruby on Rails </li>
               <li> PostgreSQL</li>
               <li> Devise gem </li>
             </ul>
-               <p><a href="#">Github</a> | <a href="">Heroku</a></p>
-           </div>
         </div>
+      </div> -->
+<div class="row">
+  <div class="card offset-m1 col s8 m5">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img src="img/dash.jpg" class="activator">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
 
-        <div class="card medium offset-s1 col s5">
-           <div class="card-image waves-effect waves-block waves-light">
-             <img class="activator" src="img/iran.jpg">
-           </div>
-           <div class="card-content">
-             <span class="card-title activator grey-text text-darken-4">Stork<i class="material-icons right">...</i></span>
-             <p><a href="#">Github</a> | <a href="">Heroku</a></p>
-           </div>
-           <div class="card-reveal">
-             <span class="card-title grey-text text-darken-4">Stork<i class="material-icons right">close</i></span>
-             <p>Here is some more information about this product that is only revealed once clicked on.</p>
-           </div>
-        </div>
-
-        <div class="card medium offset-s1 col s5">
-           <div class="card-image waves-effect waves-block waves-light">
-             <img class="activator" src="img/iran.jpg">
-           </div>
-           <div class="card-content">
-             <span class="card-title activator grey-text text-darken-4">Fellowship Advisor<i class="material-icons right">...</i></span>
-             <p><a href="#">Github</a> | <a href="">Heroku</a></p>
-           </div>
-           <div class="card-reveal">
-             <span class="card-title grey-text text-darken-4">Fellowship Advisor<i class="material-icons right">close</i></span>
-             <p>Here is some more information about this product that is only revealed once clicked on.</p>
-           </div>
-        </div>
-
-        <div class="card medium offset-s1 col s5">
-           <div class="card-image waves-effect waves-block waves-light">
-             <img class="activator" src="img/iran.jpg">
-           </div>
-           <div class="card-content">
-             <span class="card-title activator grey-text text-darken-4">Wanderly<i class="material-icons right">...</i></span>
-             <p><a href="#">Github</a> | <a href="">Heroku</a></p>
-           </div>
-           <div class="card-reveal">
-             <span class="card-title grey-text text-darken-4">Wanderly<i class="material-icons right">close</i></span>
-             <p>Here is some more information about this product that is only revealed once clicked on.</p>
-           </div>
-        </div>
-        <div class="card medium offset-s1 col s5">
-           <div class="card-image waves-effect waves-block waves-light">
-             <img class="activator" src="img/iran.jpg">
-           </div>
-           <div class="card-content">
-             <span class="card-title activator grey-text text-darken-4">Niche Mapper<i class="material-icons right">...</i></span>
-             <p><a href="#">Github</a> | <a href="">Heroku</a></p>
-           </div>
-           <div class="card-reveal">
-             <span class="card-title grey-text text-darken-4">Niche Mapper<i class="material-icons right">close</i></span>
-             <p>Here is some more information about this product that is only revealed once clicked on.</p>
-           </div>
-        </div>
-        <div class="card medium offset-s1 col s5">
-           <div class="card-image waves-effect waves-block waves-light">
-             <img class="activator" src="img/iran.jpg">
-           </div>
-           <div class="card-content">
-             <span class="card-title activator grey-text text-darken-4">MetResponse<i class="material-icons right">...</i></span>
-             <p><a href="#">Github</a> | <a href="">Heroku</a></p>
-           </div>
-           <div class="card-reveal">
-             <span class="card-title grey-text text-darken-4">MetResponse<i class="material-icons right">close</i></span>
-             <p>Here is some more information about this product that is only revealed once clicked on.</p>
-           </div>
-        </div>
+  <div class="card  offset-m1 col s8 m5">
+    <div class="card-image waves-effect waves-block waves-light">
+        <img src="img/dash.jpg" class="activator">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
 
   </div>
 </div>
