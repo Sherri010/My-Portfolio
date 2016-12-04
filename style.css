@@ -121,10 +121,37 @@ ul.techs {
   text-align: center;
   color:#fff;
 }
-
+#skills{
+  min-height: 400px;
+  background:linear-gradient(
+      rgba(61, 92, 92, 0.9),
+      rgba(61, 92, 92, 0.58)),
+       url("img/skills.png");
+  margin-top: 100px;
+  margin-bottom: none;
+}
 #about{
   background: #90a4ae;
   min-height: 600px;
+  padding:50px;
+}
+.skills{
+  text-align: center;
+  color:#fff;
+  padding: 40px;
+}
+.slist {
+  width:50%;
+  margin: 0 auto;
+  font-size: 1.3em;
+  font-weight: bolder;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.slist li{
+  display: inline-block;
+  padding: 30px;
 }
 /*#cfd8dc;*/
 #contact{
@@ -132,6 +159,7 @@ ul.techs {
   color:#fff;
   text-align: left;
   padding-left: 40px;
+  padding-top: 100px;
   background: linear-gradient(
       rgba(166, 183, 191,0.56),
       rgba(166, 183, 191,0.56)),
@@ -150,7 +178,8 @@ ul.techs {
   width:20%;
   border-radius: 50%;
   border:solid 3px #fff;
-  float:right;
+  display: block;
+  margin: 0 auto;
 }
 .footer{
   text-align: center;
@@ -172,6 +201,8 @@ ul.techs {
     margin: 80px;
   }
 
-
+  #contact{
+    min-height: 400px;
+  }
 
 }
