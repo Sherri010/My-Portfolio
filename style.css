@@ -197,7 +197,6 @@ ul.techs {
   }
 }
 @media (max-width: 500px) {
-
   .title{
     padding-top:100px;
   }
@@ -211,7 +210,9 @@ ul.techs {
     text-align: center;
     margin: 80px;
   }
-
+  .slist {
+    width:95%;
+  }
   #contact{
     min-height: 400px;
   }
