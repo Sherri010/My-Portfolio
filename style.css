@@ -99,6 +99,13 @@ h1.section_title{
  text-align: center;
  color:#fff;
 }
+.row{
+  clear:both;
+}
+.row .col {
+  padding:5px;
+  background:#eceff1 ;
+}
 .disc{
   background-color: #fff;
 }
@@ -111,10 +118,6 @@ ul.techs {
 .project_title{
   text-align: center;
   color:#fff;
-}
-.activator{
-  width:80%;
-  margin:20px;
 }
 
 @media (max-width: 500px) {
