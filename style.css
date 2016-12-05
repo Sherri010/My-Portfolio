@@ -1,4 +1,4 @@
-
+/*#263238;*/
 body{
   background: #263238;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -97,6 +97,7 @@ nav {
 #projects{
   margin-top:5px;
 }
+
 h1.section_title{
  text-align: center;
  color:#fff;
@@ -106,13 +107,15 @@ h1.section_title{
 }
 .row .col {
   padding:5px;
-  background:#eceff1 ;
+  /*background:#eceff1 ;*/
 }
 .disc{
   background-color: #fff;
 }
 .card{
   min-height:500px;
+  font-size:18px;
+  background: transparent;
 }
 ul.techs {
   list-style:circle;
@@ -121,6 +124,10 @@ ul.techs {
   text-align: center;
   color:#fff;
 }
+.project-box{
+  padding:20px;
+}
+
 #skills{
   min-height: 400px;
   background:linear-gradient(
