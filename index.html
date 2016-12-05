@@ -43,49 +43,60 @@
   text-align: center;
   color:#fff;
 }
+.project_disc{
+  padding: 5%;
+  font-size: 18px;
+}
+.waves-effect{
+  display: block;
+}
 </style>
     <div id="projects" class="container">
     <h1 class="section_title"> Projects </h1>
     <div class="row">
+
       <div class="col  m5"  >
-         <img src="project/air.jpg"  id="airplan"  class="pro z-depth-4" width="80%">
-         <h3 class="project_name"> AirPlanner </h3>
+         <img src="project/air.jpg"  class="pro z-depth-4" width="80%">
+         <a class="waves-effect waves-light project_name" href="#airplan"><h3> AirPlanner </h3> </a>
       </div>
       <div class="col offset-m2 m5"  >
-        <img src="project/fellow.jpg"  id="fellow"  class="pro z-depth-4" width="80%">
-         <h3 class="project_name"> Fellowship Advisor </h3>
+        <img src="project/fellow.jpg"   class="pro z-depth-4" width="80%">
+        <a class="waves-effect waves-light project_name" href="#fellow"><h3> Fellowship Advisor </h3> </a>
       </div>
     </div>
     <div class="row">
       <div class="col m5"  >
-        <img src="project/stork .png"  id="stork"  class="pro z-depth-4" width="80%">
-         <h3 class="project_name"> Stork </h3>
+        <img src="project/stork .png" class="pro z-depth-4" width="80%">
+           <a class="waves-effect waves-light project_name" href="#stork"><h3>  Stork </h3></a>
       </div>
       <div class="col offset-m2 m5"  >
-        <img src="project/met.jpg"  id="met"  class="pro z-depth-4" width="80%">
-         <h3 class="project_name"> MetResponse </h3>
+        <img src="project/met.jpg"   class="pro z-depth-4" width="80%">
+        <a class="waves-effect waves-light project_name" href="#met"><h3>  MetResponse </h3></a>
       </div>
 
     </div>
     <div class="row">
       <div class="col m5"  >
-        <img src="project/niche .png"  id="niche"  class="pro z-depth-4" width="80%">
-         <h3 class="project_name"> Niche Mapper </h3>
+        <img src="project/niche .png"   class="pro z-depth-4" width="80%">
+        <a class="waves-effect waves-light project_name" href="#nich"><h3>  Niche Mapper </h3></a>
       </div>
       <div class="col offset-m2 m5"  >
-        <img src="project/wanderly.jpg"  id="wanderly"  class="pro z-depth-4" width="80%">
-         <h3 class="project_name"> Wanderly </h3>
+        <img src="project/wanderly.jpg" class="pro z-depth-4" width="80%">
+        <a class="waves-effect waves-light project_name" href="#wanderly"><h3>  Wanderly </h3></a>
       </div>
     </div>
     <div class="row">
       <div class="col offset-m3 m6"  >
-        <img src="project/pac.jpg"  id="pacman"  class="pro z-depth-4" width="80%">
-         <h3 class="project_name"> PACMAN </h3>
+        <img src="project/pac.jpg"  class="pro z-depth-4" width="80%">
+        <a class="waves-effect waves-light project_name" href="#pacman"><h3>  PACMAN </h3></a>
       </div>
     </div>
-      <!-- <h3> AirPlanner </h3>
+
+    <div id="airplan"  class="modal project_disc">
+       <h3 style="text-align:center;"> AirPlanner </h3>
+         <img src="project/air.jpg"  class="pro z-depth-4" width="80%">
         <p><a href="https://github.com/Sherri010/Flight-Planner-P">Github</a> | <a href="http://airplanner.herokuapp.com"><i class="fa fa-link" aria-hidden="true"></i>link to app</a></p>
-      <p> Easy to use app for private pilots to plan routes. This application was developed over a 10 day sprint. I worked closely with a
+        <p> Easy to use app for private pilots to plan routes. This application was developed over a 10 day sprint. I worked closely with a
       client and UX designer to create this application. The purpose of this application is to make the process of planning easier,faster and more accurate for our client.
       In the current version, client can plan routes, see the distance between each two locations on the route and the total distance,
       measure time by entering desier speed and finally, save the route. User cal view all the saved routes and their details,look up weather
@@ -103,21 +114,17 @@
        <li> Ruby on Rails </li>
        <li> PostgreSQL</li>
        <li> Devise gem </li>
-      </ul> -->
-  <!-- <div class="card col  offset-s1 s10 offset-m2 m5 z-depth-4">
-    <div class="card-image waves-effect waves-block waves-light">
-        <img src="img/fellow.png" class="activator">
+      </ul>
     </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Fellowship Advisor<i class="material-icons right">...</i></span>
-      <p><a href="#">Github</a> </p>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Fellowship Advisor<i class="material-icons right">close</i></span>
+
+
+    <div id="fellow"  class="modal project_disc">
+       <h3 style="text-align:center;"> Fellowship Advisor </h3>
+             <img src="project/fellow.jpg"   class="pro z-depth-4" width="80%">
         <p><a href="#">Github</a> </p>
       <p> Platform to share experiences and advise for travellers.This was a team project ( 3 developers ) and we <a href="https://github.com/sf-wdi-gaia/project-vagabond/blob/master/user-stories.md"> requirments </a>. We decided to put our own speen on the project
        and create this for Lord of the Rings world! I was mostly involved in the back end and setting up rails controllers.</p>
-<hr>
+      <hr>
       <b> Technologies:</b>
       <ul class="techs">
        <li> HTML5 / CSS </li>
@@ -127,24 +134,16 @@
        <li> PaperClip gem </li>
      </ul>
     </div>
-  </div>
-</div> -->
-<!-- </div>
-<div class="row">
 
 
-  <div class="card col  offset-s1 s10 m5 z-depth-4">
-    <div class="card-image waves-effect waves-block waves-light">
-        <img src="img/metres.png" class="activator">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">MetResponse<i class="material-icons right">...</i></span>
-      <p><a href="http://metresponse.net"><i class="fa fa-link" aria-hidden="true"></i> link to website</a></p>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">MetResponse<i class="material-icons right">close</i></span>
-            <p><a href="http://metresponse.net"><i class="fa fa-link" aria-hidden="true"></i> link to website</a></p>
-      <p>  I worked as a freelancer for MetResponse LLC in Madison, WI. At the time,the company was an early stage startup providing services
+
+
+
+    <div  id="met" class="modal project_disc">
+      <h3 style="text-align:center;">MetResponse</h3>
+      <img src="project/met.jpg"  id="met"  class="pro z-depth-4" width="80%">
+       <p><a href="http://metresponse.net"><i class="fa fa-link" aria-hidden="true"></i> link to website</a></p>
+       <p> I worked as a freelancer for MetResponse LLC in Madison, WI. At the time,the company was an early stage startup providing services
         researchers and clinitions in bio-chemistry field.
       </p>
       <hr>
@@ -155,20 +154,12 @@
        <li> PHP </li>
      </ul>
     </div>
-  </div> -->
 
 
-<!--
-  <div class="card col  offset-s1 s10 offset-m2 m5 z-depth-4">
-    <div class="card-image waves-effect waves-block waves-light">
-        <img src="img/wanderly.png" class="activator">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Wanderly<i class="material-icons right">...</i></span>
+  <div class="modal project_disc" id="wanderly">
+      <h3 style="text-align:center;">Wanderly</h3>
+      <img src="project/niche .png"  id="niche"  class="pro z-depth-4" width="80%">
       <p><a href="https://github.com/Sherri010/wanderly">Github</a> | <a href="wanderly.heroku.com"><i class="fa fa-link" aria-hidden="true"></i>link to app</a></p>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Wanderly<i class="material-icons right">close</i></span>
       <p>Platform to share your travel experiences or bucketlist with friends. The app takes advantage for Google Maps API to associate posts with locations.
       Therefore, The posts can be spefic to a resturant, store or a city or country. I worked in a team of two for this app and we pair programmed cloesly.
      </p>
@@ -184,20 +175,12 @@
        <li> MongoDB </li>
      </ul>
     </div>
-  </div>
-  </div> -->
 
-  <!-- <div class="row">
-    <div class="card col offset-s1 s10 m5 z-depth-4">
-      <div class="card-image waves-effect waves-block waves-light">
-          <img src="img/stork.png" class="activator">
-      </div>
-      <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">Stork<i class="material-icons right">...</i></span>
-        <p><a href="https://github.com/Brikky/stork">Github</a> | <a href="http://www.storkstore.us/"><i class="fa fa-link" aria-hidden="true"></i>link to app</a></p>
-      </div>
-      <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Stork<i class="material-icons right">close</i></span>
+
+
+      <div class="modal project_disc" id="stork">
+        <h3 style="text-align:center;">Stork</h3>
+        <img src="project/stork .png" class="pro z-depth-4" width="80%">
         <p><a href="https://github.com/Brikky/stork">Github</a> | <a href="http://www.storkstore.us/"><i class="fa fa-link" aria-hidden="true"></i>link to app</a></p>
         <p>Ruby on Rails ecommerce platform.Developed this application in a team of four developers. One of the most interesting projects I have worked on becuase of the new technologies and creating right user experience for users. This application was developer in a 7 day sprint.</p>
         <hr>
@@ -212,18 +195,10 @@
          <li> Devise </li>
        </ul>
       </div>
-    </div> -->
 
-    <!-- <div  class="card col  offset-s1 s10 offset-m2  m5 z-depth-4">
-      <div class="card-image waves-effect waves-block waves-light">
-          <img src="img/niche.png" class="activator">
-      </div>
-      <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">Niche Mapper<i class="material-icons right">...</i></span>
-        <p><a href="http://niche-mapper.com/"><i class="fa fa-link" aria-hidden="true"></i> visit website</a></p>
-      </div>
-      <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Niche Mapper<i class="material-icons right">close</i></span>
+     <div class="modal project_disc" id="nich">
+        <h3 style="text-align:center;">Niche Mapper</h3>
+        <img src="project/niche .png"   class="pro z-depth-4" width="80%">
         <p><a href="http://niche-mapper.com/"><i class="fa fa-link" aria-hidden="true"></i> visit website</a></p>
         <p> I co-founded Niche Mapper LLC in 2015 in Madison,WI.
         The company mostly provides applications to researchers for analysing animal bioenergetics in different environments.I worked as the web developer developing three applications:
@@ -236,21 +211,12 @@
         <p> Technologies I worked with are : JavaScript,jQuery,PHP </p>
 
       </div>
-    </div> -->
 
 
-  <!-- </div>
-  <div class="row">
-    <div class="card col  offset-s1 s10 m5 z-depth-4">
-      <div class="card-image waves-effect waves-block waves-light">
-          <img src="img/pac.png" class="activator">
-      </div>
-      <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">PACMAN<i class="material-icons right">...</i></span>
-        <p><a href="https://github.com/Sherri010/PACMAN">Github</a> | <a href="http://sherri.codes/PACMAN/">Play</a></p>
-      </div>
-      <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">PACMAN<i class="material-icons right">close</i></span>
+      <div class="modal project_disc" id="pacman">
+      <h3 style="text-align:center;">PACMAN</h3>
+        <img src="project/pac.jpg"  class="pro z-depth-4" width="80%">
+          <p><a href="https://github.com/Sherri010/PACMAN">Github</a> | <a href="http://sherri.codes/PACMAN/">Play</a></p>
         <p> My goal behind doing this project was to challenge myself and implemenet a game I wasnt sure how to at the begining. I developmed this over a weekend.</p>
         <b> Technologies:</b>
         <ul class="techs">
@@ -258,7 +224,7 @@
          <li> JavaScript </li>
        </ul>
       </div>
-    </div> -->
+    </div>
 
 
     <!-- <div class="card col  offset-s1 s10 offset-m2 m5 z-depth-4">
