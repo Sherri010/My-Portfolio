@@ -122,6 +122,20 @@ ul.techs {
   text-align: center;
   padding:20px;
 }
+.carousel-item{
+  width:300px;
+}
+.project_links{
+  text-align: right;
+  font-size: 18px;
+}
+.project_links a {
+  color:#37474f;
+}
+.project_links a:hover{
+  text-decoration: none;
+  color:grey;
+}
 .single{
   padding-top:30px;
   padding-bottom: 30px;
