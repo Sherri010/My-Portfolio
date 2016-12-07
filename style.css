@@ -4,9 +4,14 @@ body{
   margin:0;
   padding: 0px;
   font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+iframe {
+  width:100%;
+  height:650px;
 }
 .banner {
-    font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   height:100vh;
   width:100%;
   margin:0;
@@ -31,10 +36,14 @@ body{
 }
 
 .title h1 {
-  font-size: 5em;
+  font-size: 4em;
+  font-weight: bold;
+letter-spacing: 5px;
 }
 .title h4 {
-font-size:4em;
+font-size:2.5em;
+font-weight: bold;
+letter-spacing: 5px;
 }
 .main_links{
   text-align: center;
@@ -60,6 +69,7 @@ nav {
   border:none;
   box-shadow: none;
   font-size:25px;
+  font-weight: bold;
 }
 .cl-effect-1 a::before,
 .cl-effect-1 a::after {
@@ -163,7 +173,7 @@ ul.techs {
 .slist {
   width:50%;
   margin: 0 auto;
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: bolder;
   color: #fff;
   text-align: center;
