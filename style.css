@@ -219,6 +219,8 @@ ul.techs {
 @media (max-width: 500px) {
   body{
     font-size: 14px;
+    margin:0px;
+    padding:0px;
   }
   .title{
     padding-top:100px;
