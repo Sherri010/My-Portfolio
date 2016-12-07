@@ -3,7 +3,7 @@ body{
   /*background: #263238;*/
   margin:0;
   padding: 0px;
-  font-size: 16px;
+  font-size: 18px;
 }
 .banner {
     font-family: 'Julius Sans One', sans-serif;
@@ -23,7 +23,7 @@ body{
     /*display: none;*/
   margin:0 auto;
   text-align: center;
-  padding-top:300px;
+  padding-top:15%;
   color:#fff;
   font-weight: bold;
 
@@ -148,6 +148,7 @@ ul.techs {
        url("img/skills.png");
   margin-top: 100px;
   margin-bottom: none;
+
 }
 #about{
   background: #90a4ae;
@@ -174,7 +175,7 @@ ul.techs {
 }
 /*#cfd8dc;*/
 #contact{
-  font-size: 1.7em;
+  font-size: 1.3em;
   color:#fff;
   text-align: left;
   padding-left: 40px;
@@ -216,18 +217,22 @@ ul.techs {
   }
 }
 @media (max-width: 500px) {
+  body{
+    font-size: 14px;
+  }
   .title{
     padding-top:100px;
   }
   .title h1 {
-    font-size: 5em;
+    font-size: 3em;
   }
   .title h4 {
   font-size:2em;
   }
-  .main_links{
+  .nav a{
     text-align: center;
     margin: 80px;
+    font-size: 18px;
   }
   .slist {
     width:95%;
