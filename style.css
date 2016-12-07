@@ -1,12 +1,12 @@
 /*#263238;*/
 body{
-  background: #263238;
-  font-family: 'Open Sans Condensed', sans-serif;
+  /*background: #263238;*/
   margin:0;
   padding: 0px;
-  font-size: 18px;
+  font-size: 16px;
 }
 .banner {
+    font-family: 'Julius Sans One', sans-serif;
   height:100vh;
   width:100%;
   margin:0;
@@ -31,7 +31,7 @@ body{
 }
 
 .title h1 {
-  font-size: 8em;
+  font-size: 5em;
 }
 .title h4 {
 font-size:4em;
@@ -97,6 +97,7 @@ nav {
 }
 #projects{
   margin-top:5px;
+  font-family: 'Pontano Sans', sans-serif;
 }
 
 h1.section_title{
@@ -110,25 +111,21 @@ h1.section_title{
   padding:5px;
   /*background:#eceff1 ;*/
 }
-.disc{
-  background-color: #fff;
-}
-.card{
-  min-height:500px;
-  font-size:18px;
-  background: transparent;
-}
 ul.techs {
   list-style:circle;
 }
-.project_title{
-  text-align: center;
-  color:#fff;
+#projects h5 {
+  color:#37474f;
+  font-family: 'Dosis', sans-serif;
 }
-.project-box{
+#projects h3{
+  text-align: center;
   padding:20px;
 }
-
+.single{
+  padding-top:30px;
+  padding-bottom: 30px;
+}
 #skills{
   min-height: 400px;
   background:linear-gradient(
