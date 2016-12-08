@@ -242,8 +242,11 @@ ul.techs {
     padding-top:80px;
   }
   .title h1 {
-    font-size: 2.8em;
-    padding:20px;
+    font-size: 2.5em;
+    padding:1%;
+  }
+  .title h4{
+    font-size: 1.8em;
   }
   nav {
     margin:50px;
