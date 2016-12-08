@@ -222,11 +222,12 @@ ul.techs {
     padding-top:100px;
   }
   .title h1 {
-    font-size: 6em;
+    font-size: 4em;
   }
   .title h4 {
   font-size:2em;
   }
+
 }
 @media (max-width: 500px) {
   iframe {
@@ -263,6 +264,7 @@ ul.techs {
   }
   #contact{
     min-height: 400px;
+    padding-top:50px;
   }
 
 }
