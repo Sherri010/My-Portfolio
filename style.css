@@ -217,6 +217,11 @@ ul.techs {
   text-align: center;
   color:#b3cccc;
 }
+.myCV{
+  display: block;
+margin:0 auto;
+  width:50%;
+}
 @media (max-width:900px){
   .title{
     padding-top:100px;
