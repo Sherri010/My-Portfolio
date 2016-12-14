@@ -7,9 +7,9 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 iframe {
-  width:100%;
+  width:110%;
   height:650px;
-  margin-bottom:60px;
+  margin-left:-50px;
 }
 .banner {
   font-family: 'Julius Sans One', sans-serif;
