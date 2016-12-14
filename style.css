@@ -19,7 +19,7 @@ iframe {
   background: linear-gradient(
       rgba(0, 0, 0, 0.58),
       rgba(0, 0, 0, 0.58)
-    ), url("img/e.jpg") no-repeat;
+    ), url("img/e.png") no-repeat;
 
   background-size: cover;
   background-position: center;
