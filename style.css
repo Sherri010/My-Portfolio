@@ -10,7 +10,7 @@ body{
    color:#547BBD;
 }
 iframe {
-  width:110%;
+  width:70vw;
   height:650px;
   display: block;
   margin:0 auto;
@@ -44,7 +44,7 @@ iframe {
 .title h1 {
   font-size: 4em;
   font-weight: bold;
-letter-spacing: 5px;
+  letter-spacing: 5px;
 }
 .title h4 {
 font-size:2.5em;
@@ -171,7 +171,10 @@ ul.techs {
 
 }
 #about{
-  background: #2b4155;
+  background:linear-gradient(
+      rgba(0 , 0, 0,0.5),
+      rgba(166, 183, 191,0)),
+       #2b4155;
   height: 600px;
   padding:50px;
   color:#fff;
@@ -202,8 +205,8 @@ ul.techs {
   padding-left: 40px;
   padding-top: 100px;
   background: linear-gradient(
-      rgba(166, 183, 191,0.56),
-      rgba(166, 183, 191,0.56)),
+      rgba(0, 0, 0,0.56),
+      rgba(166, 183, 191,0)),
       url("img/sf.jpg") no-repeat;
   background-size: cover;
   background-position: center;
@@ -244,13 +247,41 @@ ul.techs {
 }
 @media (max-width:900px){
   .title{
-    padding-top:100px;
+    padding-top:50px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    overflow: auto;
+    height:auto;
   }
   .title h1 {
-    font-size: 4em;
+    font-size: 2em;
   }
   .title h4 {
-  font-size:2em;
+  font-size:1.5em;
+  }
+
+  nav {
+    font-size: 1em;
+    padding-top:10px;
+    margin:0 auto;
+    position:absolute;
+    bottom:90px;
+  }
+  .nav a{
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+  }
+  .slist {
+    width:95%;
+  }
+  #about{
+    overflow: auto;
+    font-size:16px;
+    padding:15px;
+  }
+  .my_pic{
+    width:30%;
   }
 
 }
