@@ -34,7 +34,7 @@ iframe {
   padding-top:15%;
   color:#fff;
   font-weight: bold;
-
+  height:450px;
   /*font-family: 'Abril Fatface', cursive;*/
 }
 
@@ -231,6 +231,12 @@ ul.techs {
 .myCV a:hover{
   letter-spacing: 2px;
   color:#cfd8dc;
+}
+#myName{
+  display: none;
+}
+#myTitle{
+  display: none;
 }
 @media (max-width:900px){
   .title{
