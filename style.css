@@ -5,6 +5,8 @@ body{
   padding: 0px;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
+   background:#131C26;
+   color:#547BBD;
 }
 iframe {
   width:110%;
@@ -17,9 +19,9 @@ iframe {
   width:100%;
   margin:0;
   background: linear-gradient(
-      rgba(0, 0, 0, 0.58),
-      rgba(0, 0, 0, 0.58)
-    ), url("img/e.png") no-repeat;
+      rgba(0, 0, 0, 0.60),
+      rgba(0, 0, 0, 0.60)
+    ), url("img/e5.jpg") no-repeat;
 
   background-size: cover;
   background-position: center;
@@ -109,6 +111,8 @@ nav {
 #projects{
   margin-top:5px;
   font-family: 'Pontano Sans', sans-serif;
+  color:#cfd8dc;
+
 }
 
 h1.section_title{
@@ -126,7 +130,11 @@ ul.techs {
   list-style:circle;
 }
 #projects h5 {
-  color:#37474f;
+  color:#779bbb;
+  background: rgba(255,255,255,0.1);
+  text-align: center;
+  padding:3px;
+  border-radius: 2px;
   font-family: 'Dosis', sans-serif;
 }
 #projects h3{
@@ -141,7 +149,7 @@ ul.techs {
   font-size: 18px;
 }
 .project_links a {
-  color:#37474f;
+  color:#779bbb;
 }
 .project_links a:hover{
   text-decoration: none;
@@ -153,16 +161,13 @@ ul.techs {
 }
 #skills{
   min-height: 400px;
-  background:linear-gradient(
-      rgba(61, 92, 92, 0.9),
-      rgba(61, 92, 92, 0.58)),
-       url("img/skills.png");
+  background:#3c5b77;
   margin-top: 100px;
   margin-bottom: none;
 
 }
 #about{
-  background: #90a4ae;
+  background: #2b4155;
   min-height: 600px;
   padding:50px;
   color:#fff;
@@ -218,9 +223,7 @@ ul.techs {
   color:#b3cccc;
 }
 .myCV{
-  display: block;
-margin:0 auto;
-  width:50%;
+  text-align: center;
 }
 @media (max-width:900px){
   .title{
