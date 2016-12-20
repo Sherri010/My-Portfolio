@@ -245,7 +245,7 @@ ul.techs {
 #myTitle{
   display: none;
 }
-@media (max-width:900px){
+ @media only screen and (min-width: 501px) and (max-width: 900px)  {
   .title{
     padding-top:50px;
     margin-bottom:0px;
