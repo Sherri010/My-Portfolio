@@ -168,7 +168,7 @@ ul.techs {
 }
 #about{
   background: #2b4155;
-  min-height: 600px;
+  height: 600px;
   padding:50px;
   color:#fff;
 }
@@ -203,7 +203,7 @@ ul.techs {
       url("img/sf.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 600px;
+  height: 600px;
 }
 .white_links {
   color:#fff;
@@ -224,6 +224,13 @@ ul.techs {
 }
 .myCV{
   text-align: center;
+}
+.myCV a {
+  color:#90a4ae ;
+}
+.myCV a:hover{
+  letter-spacing: 2px;
+  color:#cfd8dc;
 }
 @media (max-width:900px){
   .title{
