@@ -6,14 +6,15 @@ body{
   padding: 0px;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
-   background:#131C26;
-   color:#547BBD;
+  background:#131C26;
+  color:#547BBD;
 }
 iframe {
   width:70vw;
   height:650px;
   display: block;
   margin:0 auto;
+  border:none;
 }
 .banner {
   font-family: 'Julius Sans One', sans-serif;
@@ -149,7 +150,7 @@ ul.techs {
 }
 .project_links{
   text-align: right;
-  font-size: 18px;
+  font-size: 24px;
 }
 .project_links a {
   color:#779bbb;
@@ -243,6 +244,11 @@ ul.techs {
 }
 #myTitle{
   display: none;
+}
+hr.style-two {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(64, 128, 191, 0), rgba(64, 128, 191,0.75), rgba(0, 0, 0, 0));
 }
  @media only screen and (min-width: 501px) and (max-width: 900px)  {
   .title{
