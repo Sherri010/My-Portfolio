@@ -11,6 +11,7 @@ iframe {
   width:70vw;
   height:700px;
   display: block;
+  text-align: center;
   margin:0 auto;
   border:none;
 }
@@ -160,6 +161,9 @@ ul.techs {
 .single{
   padding-top:30px;
   padding-bottom: 30px;
+}
+.single_content {
+  width:50%;
 }
 #skills{
   min-height: 400px;
