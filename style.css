@@ -110,6 +110,10 @@ nav {
 	-moz-transform: translateX(0px);
 	transform: translateX(0px);
 }
+.new-line-nav{
+  margin-left:-45px;
+  padding-right:50px;
+}
 #projects{
   margin-top:5px;
   font-family: 'Pontano Sans', sans-serif;
