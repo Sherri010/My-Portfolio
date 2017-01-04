@@ -111,8 +111,15 @@ nav {
 	transform: translateX(0px);
 }
 .new-line-nav{
-  margin-left:-45px;
-  padding-right:50px;
+  margin-left:-20px;
+  padding-right:60px;
+}
+.personal-links{
+  font-size:30px;
+  margin-top:40px;
+}
+.fa-linkedin-square{
+  margin-left:20px;
 }
 #projects{
   margin-top:5px;
