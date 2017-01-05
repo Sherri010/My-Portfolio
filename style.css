@@ -14,6 +14,7 @@ iframe {
   text-align: center;
   margin:0 auto;
   border:none;
+  border-radius: 5px;
 }
 .banner {
   font-family: 'Julius Sans One', sans-serif;
@@ -118,7 +119,7 @@ nav {
   font-size:30px;
   margin-top:40px;
 }
-.fa-linkedin-square{
+.nav-linkedin{
   margin-left:20px;
 }
 #projects{
@@ -264,12 +265,11 @@ hr.style-two {
     background-image: linear-gradient(to right, rgba(64, 128, 191, 0), rgba(64, 128, 191,0.75), rgba(0, 0, 0, 0));
 }
  @media only screen and (min-width: 501px) and (max-width: 900px)  {
+   body {
+     font-size:12px;
+   }
    iframe {
-     width:80%;
-     height:400px;
-     display: block;
-     margin:0 auto;
-     border:none;
+     display: none;
    }
   .title{
     padding-top:50px;
@@ -296,6 +296,10 @@ hr.style-two {
     text-align: center;
     margin: 10px;
     font-size: 18px;
+  }
+
+  #projects h5 {
+    font-size:14px;
   }
   .slist {
     width:95%;
@@ -347,7 +351,8 @@ hr.style-two {
   }
   .title h4 {
   font-size:2em;
-  }
+ }
+
   .nav a{
     text-align: center;
     margin: 80px;
