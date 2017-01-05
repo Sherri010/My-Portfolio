@@ -278,11 +278,12 @@ hr.style-two {
     overflow: auto;
     height:auto;
   }
-  .title h1 {
-    font-size: 2em;
+  #myName {
+    font-size: 24px;
+    padding:1%;
   }
-  .title h4 {
-  font-size:1.5em;
+  #myTitle{
+    font-size: 20px;
   }
 
   nav {
@@ -297,7 +298,10 @@ hr.style-two {
     margin: 10px;
     font-size: 18px;
   }
-
+  .personal-links{
+    font-size:20px;
+    margin-top:40px;
+  }
   #projects h5 {
     font-size:14px;
   }
@@ -336,12 +340,12 @@ hr.style-two {
     height:200px;
     overflow: auto;
   }
-  .title h1 {
-    font-size: 2.5em;
+  #myName {
+    font-size: 20px;
     padding:1%;
   }
-  .title h4{
-    font-size: 1.8em;
+  #myTitle{
+    font-size: 16px;
   }
   nav {
     margin:50px;
@@ -352,11 +356,17 @@ hr.style-two {
   .title h4 {
   font-size:2em;
  }
-
+ .personal-links{
+   font-size:20px;
+   margin-top:40px;
+ }
   .nav a{
     text-align: center;
     margin: 80px;
     font-size: 18px;
+  }
+  h4.skills{
+    font-size:25px;
   }
   .slist {
     width:95%;
