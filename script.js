@@ -1,8 +1,6 @@
 
 $(document).ready(function(){
-
   $('#year').html((new Date).getFullYear());
-  $( "#myName" ).delay(500).fadeIn(800);
-  $("#myTitle").delay(1000).fadeIn(800);
-
+  $( "#title" ).delay(1000).fadeIn(800);
+  $("#subtitle").delay(1500).fadeIn(800);
 });
